@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery4 - Exercice 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>jQuery- Partie 4 - Exo 4</h1>
+    <p>
+      Créer un formulaire demandant nom, prénom, date de naissance, lieu de
+      naissance, emploi et société. Le nom et le prénom doivent commencer par
+      une majuscule, peuvent être composés et ne pas comporter de chiffre. La
+      date de naissance doit être sous le format jj/mm/aaaa. Au clic sur un
+      bouton, les informations apparaissent dans une modale.
+    </p>
+        <form>
+          <p>
+            <label for="lastName">Nom :</label>
+            <input type="text" class="form-control" id="lastName" />
+          </p>
+          <p>
+          <label for="firstName">Prénom :</label>
+          <input type="text" class="form-control" id="firstName" />
+        </p>
+        <p>
+          <label for="dateOfBirth">Lieu de Naissance :</label>
+          <input type="text" class="form-control" id="dateOfBirth" />
+        </p>
+        <p>
+          <label for="placeOfBirth">Lieu de Naissance :</label>
+          <input type="text" class="form-control" id="placeOfBirth" />
+        </p>
+        <p>
+          <label for="job">Emploi : </label>
+          <input type="text" class="form-control" id="job" />
+        </p>
+        <p>
+          <label for="company">Société : </label>
+          <input type="text" class="form-control" id="company" />
+        </p>
+          <button id="valider" type="submit">Valider</button>
+        </form>
+
+        <script src="main.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

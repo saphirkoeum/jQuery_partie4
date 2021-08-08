@@ -1,0 +1,10 @@
+h1 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+input {
+  display: block;
+}
+button {
+  margin-top: 15px;
+}
